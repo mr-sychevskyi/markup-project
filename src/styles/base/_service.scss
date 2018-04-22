@@ -1,0 +1,18 @@
+.service {
+	padding: 120px 10px 50px;
+	
+	text-align: center;
+	transition: all .4s;
+	
+	&__title {
+		margin-top: 30px;
+		
+		color: #3d3d3d;
+		font-family: Dosis;
+		font-weight: 700;
+		line-height: 40px;
+		text-transform: uppercase;
+	}	
+	
+	&:hover { background-color: rgba(230, 235, 235, .8) }
+}

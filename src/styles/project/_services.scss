@@ -1,0 +1,51 @@
+.services { border-top: 1px solid #e7eaed; }
+
+.services-inner {
+	display: flex;
+	position: relative;
+	border-bottom: 1px solid #e7eaed;
+
+	&__info,
+	&__group { flex-basis: 50%; }
+}
+
+.services-info {
+	padding-top: 90px;
+	padding-bottom: 200px;
+	
+	&__title, 
+	&__subtitle {
+		font-family: Dosis;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	
+	&__title { font-size: 50px; }
+		
+	&__subtitle {
+		margin-top: 10px;		
+		font-size: 30px;
+	}
+
+	&__divider { margin-top: 20px; }
+	
+	&__description {
+		margin-top: 25px;
+		margin-bottom: 40px;
+		width: 90%;
+	}
+}
+
+.services-group {
+	display: flex;
+	flex-wrap: wrap;
+	border-left: 1px solid #e7eaed;
+	
+	&__link {
+		flex-basis: 50%;
+		border-right: 1px solid #e7eaed;	
+	}
+	
+	&__link:first-child, 
+	&__link:first-child + a { border-bottom: 1px solid #e7eaed;	}
+}

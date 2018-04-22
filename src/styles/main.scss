@@ -1,0 +1,26 @@
+/* --------------------------------------------------------
+   Components
+   -------------------------------------------------------- */
+
+@import 
+	'foundation/reset',
+	'foundation/typography',
+	'foundation/common';
+
+@import 
+	'base/buttons',
+	'base/header',
+	'base/main-navigation',
+	'base/service', 
+	'base/article', 
+	'base/mail-form'; 
+
+@import 
+	'project/hero-section',
+	'project/main',
+	'project/services',
+	'project/news',
+	'project/footer';
+
+@import 
+	'cosmetic/media';

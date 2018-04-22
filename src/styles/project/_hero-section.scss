@@ -1,0 +1,51 @@
+.hero-section {
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 200px;
+
+	color: #fff;
+   background: url("../images/bg.png") no-repeat center;
+	background-size: cover;
+
+	&__content {
+		margin-top: 200px;
+		width: 45%;
+	}
+	
+	&__button {
+		position: absolute;
+		bottom: 65px;
+		left: 50%;
+		
+		transform: translateX(-50%);	
+		transform: rotate(45deg);
+		transform-origin: 0 0;
+	}
+}
+
+.hero-section:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	
+	display: block;
+	width: 50%;
+	height: 100%;
+	
+	background: #000;
+	z-index: 1;
+}
+
+.hero-content {
+	&__title,
+	&__subtitle {
+		font-family: Dosis;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	&__title { font-size: 5rem; }
+	&__subtitle { font-size: 3rem; }
+
+	&__description {	line-height: 40px; }
+}

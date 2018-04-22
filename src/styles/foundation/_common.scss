@@ -1,0 +1,69 @@
+a:hover, 
+button:hover,
+select:hover { cursor: pointer; }
+
+a, 
+a:hover, 
+a:focus, 
+a:active { text-decoration: none; color: #fff; }
+
+* { outline: none; }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.divider {
+	display: block;
+	width: 35px;
+	height: 5px;
+	
+	background-color: #f16522;
+}
+
+.divider-sm {
+	width: 30px;
+	height: 4px;
+}
+
+.divider-lg {
+	display: block;
+	margin: 30px 0 35px;
+	width: 74px;
+	height: 6px;
+		
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.section-title {
+	font-family: Dosis;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 4px;
+		
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.section-description {
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.img-responsive {
+	display: block;
+	width: 100%;
+}
+
+.text-center { text-align: center; }
+.text-underline { text-decoration: underline; }
+.text-uppercase { text-transform: uppercase; }
+.text-bold { font-weight: 800; }
+
+.f-large { font-size: 24px; }
+.f-small { font-size: 10px; }
+
+.text-orange { color: #f16522; }
+.text-darkgrey { color: #3d3d3d; }

@@ -1,0 +1,43 @@
+.footer {
+	padding: 30px 0;	
+	background: #e7eaed;
+}
+
+.footer-grid {
+	display: flex;
+   justify-content: space-between;
+	
+	&__column { 
+		flex-basis: calc(1100px / 4 - 20px);
+		flex-shrink: 1;
+		margin: 20px 10px;
+	}
+}
+
+.column {	
+	&__title {
+		font-family: Dosis;
+		font-weight: 700;
+		
+		text-transform: uppercase;
+	}
+	
+	&__copyright {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	
+	&__list { margin-top: 15px; }	
+	
+	&__form { margin-top: 20px; }
+}
+
+.copyright { font-size: 12px; }
+
+.list-info {
+	li,
+	address {
+		font-size: 12px;
+		line-height: 24px;
+	}
+}

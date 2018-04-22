@@ -1,0 +1,19 @@
+.mail-form {
+	position: relative;
+	background-color: #fff;
+		
+	&__input {
+		padding: 15px 10px;
+		padding-right: 50px;
+		width: 100%;
+
+		&::placeholder { opacity: 0.3; }
+		border: none;
+	}
+		
+	&__button {
+		position: absolute;
+		top: 12px;
+		right: 5px;
+	}
+}

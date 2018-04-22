@@ -1,0 +1,19 @@
+.main-navigation { 
+	z-index: 10; 
+		
+	&__item {  display: inline-block; }
+		
+	&__link {
+		display: block;
+		padding: 10px;
+
+		font-family: Dosis;
+		font-size: 12px;
+		font-weight: 500;
+		text-transform: uppercase; 
+
+		transition: all 0.25s;
+	}
+	
+	&__link:hover { color: darkcyan; }
+}

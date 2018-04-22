@@ -1,0 +1,31 @@
+.news {
+	padding: 100px 0;
+	position: relative;
+}
+
+.news-inner {
+	&__description {
+		margin: 0 auto;
+		max-width: 480px;
+		
+		text-align: center;
+	}
+	
+	&__group { margin-top: 70px; }
+	
+	&__button {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+   	transform: translateX(-50%);
+	}
+	
+	&__divider { margin: 25px auto; }
+}
+
+.news-group {
+	display: flex;
+	justify-content: space-between;
+	
+	&__item { flex-basis: 32%; }
+}
