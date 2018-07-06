@@ -1,2 +1,2 @@
-# Markup project(Agency): [Github Pages](https://mr-sychevskyi.github.io/markup-project-agency/src/index.html)
+# Demo: [Github Pages](https://mr-sychevskyi.github.io/markup-project-agency/src/index.html)
 ##### Technologies: Flexbox, BEM, MCSS
